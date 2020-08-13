@@ -1,0 +1,42 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "enterpriseScaleCompanyPrefix": {
+            "value": "wgtp2"
+        },
+        "managementSubscriptionId": {
+            "value": "bd9f3a35-17e1-4f1a-b318-af97f398a7a1"
+        },
+        "lzSubscriptionId": {
+            "value": "9e10a131-c63c-49b7-93c7-25d209d796c3"
+        },
+        "enableLogAnalytics": {
+            "value": "Yes"
+        },
+        "enableAsc": {
+            "value": "Yes"
+        },
+        "enableSqlAudit": {
+            "value": "Yes"
+        },
+        "enableSqlEncryption": {
+            "value": "Yes"
+        },
+        "enableVmBackup": {
+            "value": "Yes"
+        },
+        "denyRdp": {
+            "value": "Yes"
+        },
+        "enableStorageHttps": {
+            "value": "Yes"
+        },
+        "denyIpForwarding": {
+            "value": "Yes"
+        },
+        "denySubnetWithoutNsg": {
+            "value": "Yes"
+        }
+    }
+}
